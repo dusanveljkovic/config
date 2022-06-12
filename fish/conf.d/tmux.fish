@@ -8,6 +8,6 @@ function pen-tmux
 end
 
 function crypto-research-tmux 
-  tmux new-session 'cd ~/crypt-research; vim' \; split-window -h -p 30 'ipython' \; split-window -v 'peaclock' \; select-pane -t 1 \;
+  tmux new-session 'cd ~/crypto-research; vim' \; split-window -h -p 30 'ipython' \; split-window -v 'peaclock' \; select-pane -t 1 \;
 end
 
