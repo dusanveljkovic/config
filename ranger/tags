@@ -1,0 +1,5 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+handle_extension	/home/duja/.config/ranger/scope.sh	/^handle_extension() {$/;"	f	language:Sh
+handle_fallback	/home/duja/.config/ranger/scope.sh	/^handle_fallback() {$/;"	f	language:Sh
+handle_image	/home/duja/.config/ranger/scope.sh	/^handle_image() {$/;"	f	language:Sh
+handle_mime	/home/duja/.config/ranger/scope.sh	/^handle_mime() {$/;"	f	language:Sh
