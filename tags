@@ -1,7 +1,23 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+<C-H>	/home/duja/config/.vimrc	/^nnoremap <C-H> <C-W><C-H>$/;"	m	language:Vim
+<C-J>	/home/duja/config/.vimrc	/^nnoremap <C-J> <C-W><C-J>$/;"	m	language:Vim
+<C-K>	/home/duja/config/.vimrc	/^nnoremap <C-K> <C-W><C-K>$/;"	m	language:Vim
+<C-L>	/home/duja/config/.vimrc	/^nnoremap <C-L> <C-W><C-L>$/;"	m	language:Vim
+<leader>b	/home/duja/config/.vimrc	/^nmap <silent> <leader>b :TagbarToggle<CR>$/;"	m	language:Vim
+<leader>t	/home/duja/config/.vimrc	/^nmap <silent> <leader>t :NERDTreeTabsToggle<CR>$/;"	m	language:Vim
 config	/home/duja/config/README.md	/^# config$/;"	c	language:Markdown
 Editor - Vim	/home/duja/config/README.md	/^## Editor - Vim$/;"	s	language:Markdown	chapter:config
 File explorer - Ranger	/home/duja/config/README.md	/^## File explorer - Ranger$/;"	s	language:Markdown	chapter:config
+g:easytags_async	/home/duja/config/.vimrc	/^let g:easytags_async = 1$/;"	v	language:Vim
+g:easytags_dynamic_files	/home/duja/config/.vimrc	/^let g:easytags_dynamic_files = 2$/;"	v	language:Vim
+g:easytags_events	/home/duja/config/.vimrc	/^let g:easytags_events = ['BufReadPost', 'BufWritePost']$/;"	v	language:Vim
+g:easytags_resolve_links	/home/duja/config/.vimrc	/^let g:easytags_resolve_links = 1$/;"	v	language:Vim
+g:easytags_suppress_ctags_warning	/home/duja/config/.vimrc	/^let g:easytags_suppress_ctags_warning = 1$/;"	v	language:Vim
+g:lightline	/home/duja/config/.vimrc	/^let g:lightline = { 'colorscheme': 'Tomorrow_Night' }$/;"	v	language:Vim
+g:nerdtree_tabs_open_on_console_startup	/home/duja/config/.vimrc	/^let g:nerdtree_tabs_open_on_console_startup = 1$/;"	v	language:Vim
+g:syntastic_error_symbol	/home/duja/config/.vimrc	/^let g:syntastic_error_symbol = '✘'$/;"	v	language:Vim
+g:syntastic_warning_symbol	/home/duja/config/.vimrc	/^let g:syntastic_warning_symbol = "▲"$/;"	v	language:Vim
+mySyntastic	/home/duja/config/.vimrc	/^augroup mySyntastic$/;"	a	language:Vim
 Shell - Fish	/home/duja/config/README.md	/^## Shell - Fish$/;"	s	language:Markdown	chapter:config
 Terminal emulator - Alacritty	/home/duja/config/README.md	/^## Terminal emulator - Alacritty$/;"	s	language:Markdown	chapter:config
 Terminal multiplexer - Tmux	/home/duja/config/README.md	/^## Terminal multiplexer - Tmux$/;"	s	language:Markdown	chapter:config
