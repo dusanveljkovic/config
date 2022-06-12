@@ -1,0 +1,7 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+config	/home/duja/config/README.md	/^# config$/;"	c	language:Markdown
+Editor - Vim	/home/duja/config/README.md	/^## Editor - Vim$/;"	s	language:Markdown	chapter:config
+File explorer - Ranger	/home/duja/config/README.md	/^## File explorer - Ranger$/;"	s	language:Markdown	chapter:config
+Shell - Fish	/home/duja/config/README.md	/^## Shell - Fish$/;"	s	language:Markdown	chapter:config
+Terminal emulator - Alacritty	/home/duja/config/README.md	/^## Terminal emulator - Alacritty$/;"	s	language:Markdown	chapter:config
+Terminal multiplexer - Tmux	/home/duja/config/README.md	/^## Terminal multiplexer - Tmux$/;"	s	language:Markdown	chapter:config
