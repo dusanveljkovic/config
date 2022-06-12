@@ -1,6 +1,8 @@
 # config
 All my configs 
 
+## Window menager - i3wm
+
 ## Terminal emulator - Alacritty
 
 ## Terminal multiplexer - Tmux
