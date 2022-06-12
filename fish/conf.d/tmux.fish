@@ -7,7 +7,7 @@ function pen-tmux
   tmux new-session 'cd ~/pentesting_notebooks; vim' \; split-window -h -p 25 'peaclock' \; split-window -v  \; select-pane -t 1 \; 
 end
 
-function cryptopals-tmux 
-  tmux new-session 'cd ~/cryptopals; vim' \; split-window -h -p 30 'ipython' \; split-window -v 'peaclock' \; select-pane -t 1 \;
+function crypto-research-tmux 
+  tmux new-session 'cd ~/crypt-research; vim' \; split-window -h -p 30 'ipython' \; split-window -v 'peaclock' \; select-pane -t 1 \;
 end
 
