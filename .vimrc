@@ -19,6 +19,8 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'dag/vim-fish'
 Plugin 'Raimondi/delimitMate'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'ryanoasis/vim-devicons'
+Plugin 'dracula/vim', {'name': 'dracula'}
 
 call vundle#end()
 
@@ -32,6 +34,7 @@ set showcmd
 set incsearch
 set hlsearch
 set noshowmode
+set encoding=UTF-8
 
 " ----- Tabs -----
 set relativenumber
@@ -63,6 +66,7 @@ autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellesca
 " ----- jistr/vim-nerdtree-tabs -----
 " Open/close NERDTree Tabs with \t
 nmap <silent> <leader>t :NERDTreeTabsToggle<CR>
+let g:NERDTreeQuitOnOpen = 1
 " To have NERDTree always open on startup
 let g:nerdtree_tabs_open_on_console_startup = 1
 
@@ -94,5 +98,6 @@ nmap <silent> <leader>b :TagbarToggle<CR>
 let g:lightline = { 'colorscheme': 'Tomorrow_Night' }
 
 
+colorscheme dracula
 
 
