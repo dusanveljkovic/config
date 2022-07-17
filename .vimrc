@@ -52,6 +52,10 @@ set mouse=a
 
 hi clear SignColumn
 
+" ----- Text Folding -----
+autocmd BufWinLeave *.* mkview
+autocmd BufWinEnter *.* silent loadview
+
 " ----- Splits -----
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
